@@ -29,3 +29,7 @@ C.idea/.idea.MyResumeProject.dir/.idea/sonarlint/issuestore/index.pb,1\b\1b0fc8
 g.idea/.idea.MyResumeProject.dir/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,2\5\256e49d6bb8372949024b99a37c5d0af28f20e83
 t
 D.idea/.idea.MyResumeProject.dir/.idea/codeStyles/codeStyleConfig.xml,9\6\96b555bca86676f830366c62eed4eb56567f8252
+<
+contact.html,1\4\143617604351c3b10191461458ec5e120a28597c
+;
+resume.html,3\2\3243ae8cf0fce66d2e192a0f461b285e9f08e905
