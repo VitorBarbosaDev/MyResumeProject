@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 	float: none;
 }
 
+.history-heading,
 .section-heading{
 	font-family : "Exo", sans-serif;
 	font-weight : 300;
@@ -181,6 +182,11 @@ footer {
 	-o-transition: all .35s ease-in-out;
 }
 
+.bg-color-work-history{
+	background-color: #9b59b6;
+
+}
+
 .cv-pdf i:hover {
 	color : #e84610;
 }
@@ -241,7 +247,7 @@ footer {
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p {
+.personal-info-item .value0. p {
 	margin : 0;
 }
 
@@ -281,4 +287,51 @@ footer {
 
 .progress-section {
 	margin : 40px 20px;
+}
+
+/*Work History*/
+.history-heading{
+	color: #fafafa;
+	margin-bottom: 50px;
+}
+
+.timeline-item {
+	padding     : 4em 2em 0em 2em;
+	position    : relative;
+	color       : #fafafa;
+	border-left : 1px solid;
+}
+
+.timeline-item p {
+	padding : 0;
+	margin  : 0;
+}
+
+.timeline-item:before {
+	content     : attr(data-dates);
+	position    : absolute;
+	left        : 2.5em;
+	top         : 3em;
+	display     : block;
+	font-family : "Exo", sans-serif;
+	font-weight : 500;
+	font-size   : 0.8em;
+	padding     : 0;
+	margin      : 0;
+}
+
+.timeline-item:after {
+	width         : 12px;
+	height        : 12px;
+	display       : block;
+	top           : 2.4em;
+	position      : absolute;
+	left          : -6px;
+	border-radius : 12px;
+	content       : "";
+	background    : #fafafa;
+}
+
+.history-items {
+	margin-bottom : 30px;
 }
